@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="met-pizzeria:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>met-pizzeria</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="met-pizzeria-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="met-pizzeria:war exploded" />
+    </root>
+  </artifact>
+</component>
